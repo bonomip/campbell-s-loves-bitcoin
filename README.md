@@ -1,6 +1,9 @@
-# campbell-s-loves-bitcoin
+# Campbell's Loves Bitcoin
 
 A 2D platform game made in Unity and written in C#.
-Made for fun and learn coding in C#.
 
-Started in 2016
+# Info
+
+Made for pure fun and to increase my personal skills.
+
+Started in 2016.

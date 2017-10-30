@@ -36,7 +36,7 @@ public class ControlManager : MonoBehaviour {
 	private IEnumerator waitAndLoadNextScene (){
 		yield return new WaitForSeconds (2.0f);
 		sceneIsLoading = false;
-		SceneManager.LoadScene ( (++sceneAt).ToString() );
+        SceneManager.LoadScene ( (++sceneAt).ToString() );
 	}
 		
 	private string randomChangeSceneText(){

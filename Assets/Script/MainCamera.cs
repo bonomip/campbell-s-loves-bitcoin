@@ -16,7 +16,7 @@ public class MainCamera : MonoBehaviour {
 	void FixedUpdate () {
 		
 		if (!Player.self) {
-			
+	
 		} else {
 			Vector3 point = mainCam.WorldToViewportPoint (Player.self.transform.position);
 			Vector3 delta = Player.self.transform.position - mainCam.ViewportToWorldPoint (new Vector3 (0.5f , 0.40f, point.z));
